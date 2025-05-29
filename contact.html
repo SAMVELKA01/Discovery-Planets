@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Discovery Planets</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar section-content">
+        <a href="index.html" class="nav-logo">
+          <img src="IMAGE/logospace.png" alt="" />
+          <h2 class="logo-text">Discovery Planets</h2>
+        </a>
+
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="Planets.html" class="nav-link">Planets</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html#services" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+
+    <main class="contact-main">
+      <section class="contact-intro section-content">
+        <div class="intro-container">
+          <h1>Contactez-Nous</h1>
+          <p class="intro-subtitle">Une question sur l'espace ? Un projet à discuter ? Notre équipe d'experts est là pour vous répondre.</p>
+          <div class="intro-features">
+            <div class="intro-feature">
+              <i class="fas fa-clock"></i>
+              <span>Réponse sous 24h</span>
+            </div>
+            <div class="intro-feature">
+              <i class="fas fa-headset"></i>
+              <span>Support 7j/7</span>
+            </div>
+            <div class="intro-feature">
+              <i class="fas fa-comments"></i>
+              <span>Chat en direct</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-content section-content">
+        <div class="contact-wrapper">
+          <div class="contact-header">
+            <h2>Contactez-Nous</h2>
+            <p>Une question ? Un projet ? Notre équipe est à votre écoute.</p>
+          </div>
+
+          <div class="contact-info">
+            <div class="info-cards">
+              <div class="info-card">
+                <div class="info-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="info-details">
+                  <h3>Adresse</h3>
+                  <p>123 Avenue de l'Espace<br>75000 Paris, France</p>
+                </div>
+              </div>
+
+              <div class="info-card">
+                <div class="info-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="info-details">
+                  <h3>Téléphone</h3>
+                  <p>+33 1 23 45 67 89<br>+33 6 12 34 56 78</p>
+                </div>
+              </div>
+
+              <div class="info-card">
+                <div class="info-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="info-details">
+                  <h3>Email</h3>
+                  <p>contact@discoveryplanets.com<br>support@discoveryplanets.com</p>
+                </div>
+              </div>
+
+              <div class="info-card">
+                <div class="info-icon">
+                  <i class="fas fa-clock"></i>
+                </div>
+                <div class="info-details">
+                  <h3>Horaires</h3>
+                  <p>Lundi - Vendredi: 9h - 18h<br>Samedi: 10h - 16h</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <h3>Suivez-Nous</h3>
+              <div class="social-icons">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-form-section section-content">
+        <div class="contact-wrapper">
+          <div class="contact-form-container">
+            <h3>Envoyez-Nous un Message</h3>
+            <form class="contact-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Nom complet</label>
+                  <div class="input-group">
+                    <i class="fas fa-user"></i>
+                    <input type="text" id="name" placeholder="Votre nom" required>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <div class="input-group">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" id="email" placeholder="votre@email.com" required>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Sujet</label>
+                <div class="input-group">
+                  <i class="fas fa-tag"></i>
+                  <input type="text" id="subject" placeholder="Sujet de votre message" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <div class="input-group">
+                  <i class="fas fa-comment"></i>
+                  <textarea id="message" rows="5" placeholder="Votre message..." required></textarea>
+                </div>
+              </div>
+
+              <div class="form-group checkbox-group">
+                <label class="checkbox-container">
+                  <input type="checkbox" required>
+                  <span class="checkmark"></span>
+                  J'accepte que mes données soient traitées conformément à la politique de confidentialité
+                </label>
+              </div>
+
+              <button type="submit" class="btn btn-primary">
+                Envoyer le Message
+                <i class="fas fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="map-section section-content">
+        <div class="map-container">
+          <h2>Notre Localisation</h2>
+          <div class="map-wrapper">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9916256937595!2d2.292292615509614!3d48.85837007928757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sTour%20Eiffel!5e0!3m2!1sfr!2sfr!4v1647884580000!5m2!1sfr!2sfr" 
+              allowfullscreen="" 
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <img src="IMAGE/logospace.png" alt="Discovery Planets Logo" class="footer-logo">
+            <h2 class="footer-title">Discovery Planets</h2>
+          </div>
+          <div class="footer-info">
+            <p>Explorez l'univers avec nous et découvrez les merveilles du cosmos. Notre mission est de rendre l'astronomie accessible à tous.</p>
+            <div class="social-links">
+              <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="footer-links">
+            <h3>Navigation</h3>
+            <ul>
+              <li><a href="index.html"><i class="fas fa-chevron-right"></i> Accueil</a></li>
+              <li><a href="index.html#about"><i class="fas fa-chevron-right"></i> À propos</a></li>
+              <li><a href="Planets.html"><i class="fas fa-chevron-right"></i> Planètes</a></li>
+              <li><a href="index.html#services"><i class="fas fa-chevron-right"></i> Services</a></li>
+              <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <h3>Contact</h3>
+            <div class="contact-info">
+              <p><i class="fas fa-map-marker-alt"></i> 123 Avenue de l'Espace, 75000 Paris</p>
+              <p><i class="fas fa-phone"></i> +33 1 23 45 67 89</p>
+              <p><i class="fas fa-envelope"></i> contact@discoveryplanets.com</p>
+            </div>
+            <div class="footer-newsletter">
+              <h4>Newsletter</h4>
+              <form class="footer-form">
+                <div class="input-group">
+                  <input type="email" placeholder="Votre email" required>
+                  <button type="submit">
+                    <i class="fas fa-paper-plane"></i>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-legal">
+            <a href="#">Mentions légales</a>
+            <a href="#">Politique de confidentialité</a>
+            <a href="#">Conditions d'utilisation</a>
+          </div>
+          <p class="copyright">© 2024 Discovery Planets. Tous droits réservés.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const navMenu = document.querySelector(".nav-menu");
+
+      hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+      });
+
+      document.querySelectorAll(".nav-link").forEach((n) =>
+        n.addEventListener("click", () => {
+          hamburger.classList.remove("active");
+          navMenu.classList.remove("active");
+        })
+      );
+    </script>
+  </body>
+</html>

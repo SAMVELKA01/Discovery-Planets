@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar section-content">
+        <a href="" class="nav-logo">
+          <img src="IMAGE/logospace.png" alt="" />
+          <h2 class="logo-text">Discovery Planets</h2>
+        </a>
+
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="Planets.html" class="nav-link">Planets</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+
+    <main class="principal">
+      <section class="hero section-content">
+        <div class="hero-text">
+          <h1>Discover the Wonders of the Universe</h1>
+          <p>
+            Join us on an extraordinary journey through space and time,
+            exploring the mysteries of the cosmos.
+          </p>
+          <a href="" class="btn btn-primary">Get Started</a>
+        </div>
+        <div class="hero-image">
+          <img src="IMAGE/DISC.webp" alt="Space Image" />
+        </div>
+      </section>
+    </main>
+
+    <section id="about" class="about section-content">
+      <div class="about-wrapper">
+        <div class="about-content">
+          <div class="about-text">
+            <h2>About Us</h2>
+            <p>
+              We are passionate about space exploration and dedicated to sharing
+              the wonders of the universe with everyone. Our mission is to
+              inspire curiosity and foster a deeper understanding of the cosmos.
+            </p>
+            <div class="about-stats">
+              <div class="stat">
+                <span class="stat-number">10+</span>
+                <span class="stat-label">Years Experience</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number">50+</span>
+                <span class="stat-label">Space Missions</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number">1000+</span>
+                <span class="stat-label">Happy Explorers</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-image">
+            <img src="IMAGE/ASTRO2.jpg" alt="Space Exploration" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="planets-gallery section-content">
+      <h2>The Planets of the Solar System</h2>
+      <div class="carousel">
+        <button class="carousel-btn prev" aria-label="Précédent">
+          &#10094;
+        </button>
+        <div class="carousel-track-container">
+          <ul class="carousel-track">
+            <li class="carousel-slide current-slide">
+              <img src="IMAGE/Soleil.jpg" alt="Lune" />
+              <h3>☀️ Sun</h3>
+              <p>The star that powers and lights up the entire solar system.</p>
+            </li>
+            <li class="carousel-slide">
+              <img src="IMAGE/LUNE1.jpg" alt="Soleil" />
+              <h3>🌕 Moon</h3>
+              <p>Earth's natural satellite, visible in the night sky.</p>
+            </li>
+            <li class="carousel-slide">
+              <img src="IMAGE/VENUS2.jpg" alt="Vénus" />
+              <h3>♀ Venus</h3>
+              <p>The hottest planet, covered with thick toxic clouds.</p>
+            </li>
+            <li class="carousel-slide">
+              <img src="IMAGE/JUPITER3.jpg" alt="Jupiter" />
+              <h3>♃ Jupiter</h3>
+              <p>The largest planet, known for its giant storm.</p>
+            </li>
+            <li class="carousel-slide">
+              <img src="IMAGE/MARS4.jpg" alt="Mars" />
+              <h3>♂ Mars</h3>
+              <p>The red planet and a major target for space missions.</p>
+            </li>
+            <li class="carousel-slide">
+              <img src="IMAGE/NEPTUNE5.jpg" alt="Neptune" />
+              <h3>♆ Neptune</h3>
+              <p>The farthest planet, with the fastest winds recorded.</p>
+            </li>
+            <li class="carousel-slide">
+              <img src="IMAGE/URANUS6.jpg" alt="Uranus" />
+              <h3>♅ Uranus</h3>
+              <p>A blue giant that rotates sideways on its axis.</p>
+            </li>
+            <li class="carousel-slide">
+              <img src="IMAGE/SATURN7.jpg" alt="Saturne" />
+              <h3>♄ Saturn</h3>
+              <p>Famous for its beautiful rings made of ice and rock.</p>
+            </li>
+            <li class="carousel-slide">
+              <img src="IMAGE/TERRE8.jpg" alt="Terre" />
+              <h3>🌍 Earth</h3>
+              <p>Our blue planet, the only one known to support life.</p>
+            </li>
+            <!-- Ajoute plus de planètes ici -->
+          </ul>
+        </div>
+        <button class="carousel-btn next" aria-label="Suivant">&#10095;</button>
+
+        <div class="carousel-nav">
+          <!-- Les points (pagination) seront générés par JS -->
+        </div>
+      </div>
+    </section>
+
+    <section class="features section-content" id="services">
+      <div class="features-container">
+        <!-- En-tête de la section -->
+        <div class="features-header" data-aos="fade-up">
+          <span class="section-tag">Nos Services</span>
+          <h2>Explorez l'Univers avec Nous</h2>
+          <p class="section-subtitle">Découvrez nos services spécialisés pour une expérience spatiale unique</p>
+        </div>
+
+        <!-- Grille principale des services -->
+        <div class="features-grid">
+          <!-- Carte Exploration Spatiale -->
+          <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="feature-card-inner">
+              <div class="feature-icon">
+                <i class="fas fa-rocket"></i>
+              </div>
+              <div class="feature-content">
+                <h3>Exploration Spatiale</h3>
+                <p>Plongez dans l'univers fascinant de l'exploration spatiale avec nos guides experts et nos outils interactifs.</p>
+                <ul class="feature-list">
+                  <li><i class="fas fa-check"></i> Missions spatiales en direct</li>
+                  <li><i class="fas fa-check"></i> Actualités de la NASA</li>
+                  <li><i class="fas fa-check"></i> Découvertes récentes</li>
+                </ul>
+                <a href="#" class="feature-link">
+                  En savoir plus
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Carte Observation Astronomique -->
+          <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="feature-card-inner">
+              <div class="feature-icon">
+                <i class="fas fa-binoculars"></i>
+              </div>
+              <div class="feature-content">
+                <h3>Observation Astronomique</h3>
+                <p>Apprenez à observer les étoiles et les planètes avec nos équipements de pointe et nos experts passionnés.</p>
+                <ul class="feature-list">
+                  <li><i class="fas fa-check"></i> Guides d'observation</li>
+                  <li><i class="fas fa-check"></i> Événements astronomiques</li>
+                  <li><i class="fas fa-check"></i> Conseils d'experts</li>
+                </ul>
+                <a href="#" class="feature-link">
+                  En savoir plus
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Carte Formation -->
+          <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="feature-card-inner">
+              <div class="feature-icon">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+              <div class="feature-content">
+                <h3>Formation & Éducation</h3>
+                <p>Des programmes éducatifs adaptés à tous les niveaux pour comprendre les mystères de l'univers.</p>
+                <ul class="feature-list">
+                  <li><i class="fas fa-check"></i> Cours en ligne</li>
+                  <li><i class="fas fa-check"></i> Ateliers pratiques</li>
+                  <li><i class="fas fa-check"></i> Certifications</li>
+                </ul>
+                <a href="#" class="feature-link">
+                  En savoir plus
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Section CTA -->
+        <div class="features-cta" data-aos="fade-up">
+          <div class="cta-content">
+            <h3>Prêt à Explorer l'Univers ?</h3>
+            <p>Rejoignez notre communauté d'explorateurs spatiaux et commencez votre voyage dès aujourd'hui.</p>
+          </div>
+          <a href="#" class="btn btn-primary">
+            Commencer l'Aventure
+            <i class="fas fa-rocket"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter section-content">
+      <div class="newsletter-container">
+        <div class="newsletter-content" data-aos="fade-right">
+          <span class="section-tag">Newsletter</span>
+          <h2>Restez Connecté avec l'Univers</h2>
+          <p class="section-subtitle">Recevez nos dernières actualités spatiales, événements astronomiques et offres exclusives directement dans votre boîte mail.</p>
+          <div class="newsletter-features">
+            <div class="newsletter-feature">
+              <i class="fas fa-bell"></i>
+              <span>Notifications en temps réel</span>
+            </div>
+            <div class="newsletter-feature">
+              <i class="fas fa-shield-alt"></i>
+              <span>Confidentialité garantie</span>
+            </div>
+            <div class="newsletter-feature">
+              <i class="fas fa-paper-plane"></i>
+              <span>Newsletter mensuelle</span>
+            </div>
+          </div>
+        </div>
+        <div class="newsletter-form-container" data-aos="fade-left">
+          <form class="newsletter-form">
+            <div class="form-group">
+              <label for="email">Votre adresse email</label>
+              <div class="input-group">
+                <i class="fas fa-envelope"></i>
+                <input type="email" id="email" placeholder="exemple@email.com" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="checkbox-container">
+                <input type="checkbox" required>
+                <span class="checkmark"></span>
+                J'accepte de recevoir la newsletter et je comprends que je peux me désabonner à tout moment
+              </label>
+            </div>
+            <button type="submit" class="btn btn-primary">
+              S'inscrire
+              <i class="fas fa-arrow-right"></i>
+            </button>
+          </form>
+          <p class="form-note">En vous inscrivant, vous acceptez notre <a href="#">politique de confidentialité</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials section-content">
+      <div class="testimonials-container">
+        <div class="testimonials-header" data-aos="fade-up">
+          <span class="section-tag">Témoignages</span>
+          <h2>Ce que disent nos explorateurs</h2>
+          <p class="section-subtitle">Découvrez les expériences de nos visiteurs qui ont exploré l'univers avec nous</p>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="testimonial-content">
+              <div class="quote-icon">
+                <i class="fas fa-quote-left"></i>
+              </div>
+              <p>"Une expérience incroyable qui m'a permis de mieux comprendre notre univers. Les explications sont claires et les visuels sont époustouflants."</p>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                <i class="fas fa-user-astronaut"></i>
+              </div>
+              <div class="author-info">
+                <h4>Marie Dupont</h4>
+                <p>Astronome amateur</p>
+                <span class="author-location"><i class="fas fa-map-marker-alt"></i> Paris, France</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="testimonial-content">
+              <div class="quote-icon">
+                <i class="fas fa-quote-left"></i>
+              </div>
+              <p>"Des informations fascinantes présentées de manière claire et accessible. Un excellent outil pédagogique pour mes élèves."</p>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                <i class="fas fa-user-graduate"></i>
+              </div>
+              <div class="author-info">
+                <h4>Pierre Martin</h4>
+                <p>Professeur de physique</p>
+                <span class="author-location"><i class="fas fa-map-marker-alt"></i> Lyon, France</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="testimonial-content">
+              <div class="quote-icon">
+                <i class="fas fa-quote-left"></i>
+              </div>
+              <p>"Une interface intuitive et des contenus riches. J'ai appris énormément sur l'espace et les planètes. À recommander !"</p>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                <i class="fas fa-user-tie"></i>
+              </div>
+              <div class="author-info">
+                <h4>Sophie Bernard</h4>
+                <p>Étudiante en astronomie</p>
+                <span class="author-location"><i class="fas fa-map-marker-alt"></i> Marseille, France</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonials-cta" data-aos="fade-up">
+          <p>Vous aussi, partagez votre expérience avec nous !</p>
+          <a href="#" class="btn btn-primary">
+            Laisser un avis
+            <i class="fas fa-pen"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <img src="IMAGE/logospace.png" alt="Discovery Planets Logo" class="footer-logo">
+            <h2 class="footer-title">Discovery Planets</h2>
+          </div>
+          <div class="footer-info">
+            <p>Explorez l'univers avec nous et découvrez les merveilles du cosmos. Notre mission est de rendre l'astronomie accessible à tous.</p>
+            <div class="social-links">
+              <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="footer-links">
+            <h3>Navigation</h3>
+            <ul>
+              <li><a href="#"><i class="fas fa-chevron-right"></i> Accueil</a></li>
+              <li><a href="#about"><i class="fas fa-chevron-right"></i> À propos</a></li>
+              <li><a href="Planets.html"><i class="fas fa-chevron-right"></i> Planètes</a></li>
+              <li><a href="#"><i class="fas fa-chevron-right"></i> Services</a></li>
+              <li><a href="#"><i class="fas fa-chevron-right"></i> Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <h3>Contact</h3>
+            <div class="contact-info">
+              <p><i class="fas fa-map-marker-alt"></i> 123 Avenue de l'Espace, 75000 Paris</p>
+              <p><i class="fas fa-phone"></i> +33 1 23 45 67 89</p>
+              <p><i class="fas fa-envelope"></i> contact@discoveryplanets.com</p>
+            </div>
+            <div class="footer-newsletter">
+              <h4>Newsletter</h4>
+              <form class="footer-form">
+                <div class="input-group">
+                  <input type="email" placeholder="Votre email" required>
+                  <button type="submit">
+                    <i class="fas fa-paper-plane"></i>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-legal">
+            <a href="#">Mentions légales</a>
+            <a href="#">Politique de confidentialité</a>
+            <a href="#">Conditions d'utilisation</a>
+          </div>
+          <p class="copyright">© 2024 Discovery Planets. Tous droits réservés.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const navMenu = document.querySelector(".nav-menu");
+
+      hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+      });
+
+      document.querySelectorAll(".nav-link").forEach((n) =>
+        n.addEventListener("click", () => {
+          hamburger.classList.remove("active");
+          navMenu.classList.remove("active");
+        })
+      );
+
+      // Code pour le carousel des planètes
+      const track = document.querySelector(".carousel-track");
+      const slides = Array.from(track.children);
+      const nextButton = document.querySelector(".carousel-btn.next");
+      const prevButton = document.querySelector(".carousel-btn.prev");
+      const navDots = document.querySelector(".carousel-nav");
+
+      // Créer les points de navigation
+      slides.forEach((_, index) => {
+        const dot = document.createElement("button");
+        dot.classList.add("nav-dot");
+        if (index === 0) dot.classList.add("active");
+        navDots.appendChild(dot);
+      });
+
+      const dots = Array.from(navDots.children);
+      const slideWidth = slides[0].getBoundingClientRect().width;
+      let slidesPerView = 3; // Nombre de slides visibles à la fois
+      let currentIndex = 0;
+
+      // Fonction pour mettre à jour la position du carousel
+      const updateCarousel = (index) => {
+        const offset = -index * slideWidth;
+        track.style.transform = `translateX(${offset}px)`;
+
+        // Mettre à jour les points de navigation
+        dots.forEach((dot, i) => {
+          dot.classList.toggle("active", i === index);
+        });
+
+        // Mettre à jour les boutons
+        prevButton.disabled = index === 0;
+        // Permettre le défilement jusqu'au dernier élément
+        nextButton.disabled = index >= slides.length - 1;
+      };
+
+      // Gestionnaire d'événements pour le bouton suivant
+      nextButton.addEventListener("click", () => {
+        if (currentIndex < slides.length - 1) {
+          currentIndex++;
+          updateCarousel(currentIndex);
+        }
+      });
+
+      // Gestionnaire d'événements pour le bouton précédent
+      prevButton.addEventListener("click", () => {
+        if (currentIndex > 0) {
+          currentIndex--;
+          updateCarousel(currentIndex);
+        }
+      });
+
+      // Gestionnaire d'événements pour les points de navigation
+      dots.forEach((dot, index) => {
+        dot.addEventListener("click", () => {
+          currentIndex = index;
+          updateCarousel(currentIndex);
+        });
+      });
+
+      // Ajuster le nombre de slides visibles en fonction de la largeur de l'écran
+      const updateSlidesPerView = () => {
+        const width = window.innerWidth;
+        if (width <= 480) {
+          slidesPerView = 1;
+        } else if (width <= 768) {
+          slidesPerView = 2;
+        } else {
+          slidesPerView = 3;
+        }
+        // Réinitialiser l'index si nécessaire
+        if (currentIndex > slides.length - slidesPerView) {
+          currentIndex = Math.max(0, slides.length - slidesPerView);
+        }
+        updateCarousel(currentIndex);
+      };
+
+      // Mettre à jour lors du redimensionnement de la fenêtre
+      window.addEventListener("resize", updateSlidesPerView);
+
+      // Initialiser le carousel
+      updateSlidesPerView();
+    </script>
+  </body>
+</html>
