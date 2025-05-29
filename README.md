@@ -202,8 +202,6 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 ⭐ N'hésitez pas à donner une étoile au projet si vous l'appréciez !
 
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-⭐ N'hésitez pas à donner une étoile au projet si vous l'appréciez !
 
-voici le fichier modifié mais je veus que tu rende se fichiers en markdown
 
-01dfd7fd88df7a1d31972b05630f37d1f65c7705
+
